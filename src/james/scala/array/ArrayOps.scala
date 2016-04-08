@@ -51,12 +51,12 @@ object ArrayOps {
         val matrix = Array.ofDim[Double](3, 4) //> matrix  : Array[Array[Double]] = Array(Array(0.0, 0.0, 0.0, 0.0), Array(0.0
         //| , 0.0, 0.0, 0.0), Array(0.0, 0.0, 0.0, 0.0))
         matrix(2)(1) = 42
-        matrix //> res10: Array[Array[Double]] = Array(Array(0.0, 0.0, 0.0, 0.0), Array(0.0, 0
+        //matrix //> res10: Array[Array[Double]] = Array(Array(0.0, 0.0, 0.0, 0.0), Array(0.0, 0
         //| .0, 0.0, 0.0), Array(0.0, 42.0, 0.0, 0.0))
         val triangle = new Array[Array[Int]](10) //> triangle  : Array[Array[Int]] = Array(null, null, null, null, null, null, n
         for (i <- 0 until triangle.length) {
             triangle(i) = new Array[Int](i + 1)
         }
-        triangle
+        //triangle
     }
 }

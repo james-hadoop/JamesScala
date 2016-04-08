@@ -14,26 +14,26 @@ object TupleOps {
             print(array(i) + " ")
         }
         println
-        
-        for(elem <-array){
+
+        for (elem <- array) {
             print(elem + " ")
         }
         println("\n")
-        
-        val ages=Map("Rocky" ->27,"Spark"->5)
-        for((k,v)<-ages){
-            println("k="+k+"  v="+v)
+
+        val ages = Map("Rocky" -> 27, "Spark" -> 5)
+        for ((k, v) <- ages) {
+            println("k=" + k + "  v=" + v)
         }
         println
-        
-        val file=Source.fromFile("data/TupleOps.txt")
-        for(line<-file.getLines){
+
+        val file = Source.fromFile("data/TupleOps.txt")
+        for (line <- file.getLines) {
             println(line)
         }
         println
-        
-        val html=Source.fromURL("http://spark.apache.org")
-                for(line<-html.getLines){
+
+        val html = Source.fromURL("http://spark.apache.org")
+        for (line <- html.getLines) {
             println(line)
         }
         println
