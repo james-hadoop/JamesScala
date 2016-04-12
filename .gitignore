@@ -1,1 +1,8 @@
 /bin/
+.settings/
+.worksheet/
+bin/
+.cache-main
+.classpath
+.gitignore
+.project
