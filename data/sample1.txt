@@ -1,3 +1,0 @@
-hello james
-hello scala
-hello spark

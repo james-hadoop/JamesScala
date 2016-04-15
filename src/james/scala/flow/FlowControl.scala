@@ -24,9 +24,9 @@ object FlowControl {
         
         val n=99
         val file2Open="FlowControl.txt"
-        
+
 //        openFile(file2Open)
-//        
+//
 //        try{
 //            val half=if(n%2==0)n/2 else throw
 //                new RuntimeException("n must be even
@@ -55,7 +55,6 @@ object FlowControl {
             a = b % a
             b = temp
         }
-
         b
     }
 }

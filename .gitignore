@@ -6,3 +6,6 @@ bin/
 .classpath
 .gitignore
 .project
+project/
+build.sbt
+JamesScala.iml
