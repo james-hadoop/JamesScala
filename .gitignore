@@ -9,3 +9,5 @@ bin/
 project/
 build.sbt
 JamesScala.iml
+.idea/
+.gitignore
