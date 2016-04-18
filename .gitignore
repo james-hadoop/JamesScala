@@ -4,10 +4,10 @@
 bin/
 .cache-main
 .classpath
-.gitignore
 .project
 project/
 build.sbt
 JamesScala.iml
 .idea/
 .gitignore
+.idea/
