@@ -1,4 +1,4 @@
-package james.scala
+package james.scala.type_ops
 
 /**
   * Created by james on 16-4-24.
