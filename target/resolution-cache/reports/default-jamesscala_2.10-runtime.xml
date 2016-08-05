@@ -7,10 +7,10 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160802062920"/>
+		date="20160803001435"/>
 	<dependencies>
 		<module organisation="org.springframework" name="spring-jdbc">
-			<revision name="4.2.7.RELEASE" status="release" pubdate="20160704185119" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+			<revision name="4.2.7.RELEASE" status="release" pubdate="20160704185119" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="11">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3792" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-jdbc/ivy-4.2.7.RELEASE.xml" searched="true" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-jdbc/4.2.7.RELEASE/spring-jdbc-4.2.7.RELEASE.pom"/>
 				<caller organisation="default" name="jamesscala_2.10" conf="compile, runtime" rev="4.2.+" rev-constraint-default="4.2.+" rev-constraint-dynamic="4.2.+" callerrev="1.0"/>
@@ -22,7 +22,7 @@
 			</revision>
 		</module>
 		<module organisation="org.springframework" name="spring-tx">
-			<revision name="4.2.7.RELEASE" status="release" pubdate="20160704185109" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="10">
+			<revision name="4.2.7.RELEASE" status="release" pubdate="20160704185109" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="14">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3652" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-tx/ivy-4.2.7.RELEASE.xml" searched="true" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE.pom"/>
 				<caller organisation="org.springframework" name="spring-jdbc" conf="default, compile, runtime, master" rev="4.2.7.RELEASE" rev-constraint-default="4.2.7.RELEASE" rev-constraint-dynamic="4.2.7.RELEASE" callerrev="4.2.7.RELEASE"/>
@@ -35,36 +35,43 @@
 			</revision>
 		</module>
 		<module organisation="org.springframework" name="spring-beans">
-			<revision name="4.2.7.RELEASE" status="release" pubdate="20160704185126" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="8">
+			<revision name="4.2.7.RELEASE" status="release" pubdate="20160704185126" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="12">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3083" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-beans/ivy-4.2.7.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.pom"/>
 				<caller organisation="org.springframework" name="spring-jdbc" conf="default, compile, runtime, master" rev="4.2.7.RELEASE" rev-constraint-default="4.2.7.RELEASE" rev-constraint-dynamic="4.2.7.RELEASE" callerrev="4.2.7.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="default, compile, runtime, master" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
 				<caller organisation="default" name="jamesscala_2.10" conf="compile, runtime" rev="4.2.+" rev-constraint-default="4.2.+" rev-constraint-dynamic="4.2.+" callerrev="1.0"/>
 				<caller organisation="org.springframework" name="spring-tx" conf="compile, runtime" rev="4.2.7.RELEASE" rev-constraint-default="4.2.7.RELEASE" rev-constraint-dynamic="4.2.7.RELEASE" callerrev="4.2.7.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
 				<artifacts>
 					<artifact name="spring-beans" type="jar" ext="jar" status="no" details="" size="731946" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.2.7.RELEASE.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="4.2.4.RELEASE" status="release" pubdate="20151217042959" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="-1">
+			<revision name="4.2.4.RELEASE" status="release" pubdate="20151217042959" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="-1">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3198" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-beans/ivy-4.2.4.RELEASE.xml" searched="true" origin-is-local="true" origin-location="/home/james/install/activator/repository/org.springframework/spring-beans/4.2.4.RELEASE/ivys/ivy.xml"/>
 				<evicted-by rev="4.2.7.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="default, compile, runtime, master" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
 				<caller organisation="default" name="jamesscala_2.10" conf="compile, runtime" rev="4.2.+" rev-constraint-default="4.2.+" rev-constraint-dynamic="4.2.+" callerrev="1.0"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
 				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.springframework" name="spring-core">
-			<revision name="4.2.7.RELEASE" status="release" pubdate="20160704185117" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="9">
+			<revision name="4.2.7.RELEASE" status="release" pubdate="20160704185117" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="13">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3072" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-core/ivy-4.2.7.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-core/4.2.7.RELEASE/spring-core-4.2.7.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-expression" conf="compile, runtime" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
 				<caller organisation="org.springframework" name="spring-jdbc" conf="default, compile, runtime, master" rev="4.2.7.RELEASE" rev-constraint-default="4.2.7.RELEASE" rev-constraint-dynamic="4.2.7.RELEASE" callerrev="4.2.7.RELEASE"/>
-				<caller organisation="org.springframework" name="spring-beans" conf="default, compile, runtime, master" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-beans" conf="compile, runtime" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="default, compile, runtime, master" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
 				<caller organisation="default" name="jamesscala_2.10" conf="compile, runtime" rev="4.2.+" rev-constraint-default="4.2.+" rev-constraint-dynamic="4.2.+" callerrev="1.0"/>
 				<caller organisation="org.springframework" name="spring-tx" conf="compile, runtime" rev="4.2.7.RELEASE" rev-constraint-default="4.2.7.RELEASE" rev-constraint-dynamic="4.2.7.RELEASE" callerrev="4.2.7.RELEASE"/>
 				<caller organisation="org.springframework" name="spring-beans" conf="compile, runtime" rev="4.2.7.RELEASE" rev-constraint-default="4.2.7.RELEASE" rev-constraint-dynamic="4.2.7.RELEASE" callerrev="4.2.7.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
 				<artifacts>
 					<artifact name="spring-core" type="jar" ext="jar" status="no" details="" size="1095130" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.2.7.RELEASE.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-core/4.2.7.RELEASE/spring-core-4.2.7.RELEASE.jar"/>
@@ -75,20 +82,71 @@
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3187" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-core/ivy-4.2.4.RELEASE.xml" searched="true" origin-is-local="true" origin-location="/home/james/install/activator/repository/org.springframework/spring-core/4.2.4.RELEASE/ivys/ivy.xml"/>
 				<evicted-by rev="4.2.7.RELEASE"/>
-				<caller organisation="org.springframework" name="spring-beans" conf="default, compile, runtime, master" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-expression" conf="compile, runtime" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-beans" conf="compile, runtime" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="default, compile, runtime, master" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
 				<caller organisation="default" name="jamesscala_2.10" conf="compile, runtime" rev="4.2.+" rev-constraint-default="4.2.+" rev-constraint-dynamic="4.2.+" callerrev="1.0"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
 				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="org.springframework" name="spring-context">
+			<revision name="4.2.4.RELEASE" status="release" pubdate="20151217042950" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4861" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-context/ivy-4.2.4.RELEASE.xml" searched="true" origin-is-local="true" origin-location="/home/james/install/activator/repository/org.springframework/spring-context/4.2.4.RELEASE/ivys/ivy.xml"/>
+				<caller organisation="default" name="jamesscala_2.10" conf="compile, runtime" rev="4.2.+" rev-constraint-default="4.2.+" rev-constraint-dynamic="4.2.+" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="spring-context" type="jar" ext="jar" status="no" details="" size="1097552" time="0" location="/home/james/install/activator/repository/org.springframework/spring-context/4.2.4.RELEASE/jars/spring-context.jar">
+						<origin-location is-local="true" location="/home/james/install/activator/repository/org.springframework/spring-context/4.2.4.RELEASE/jars/spring-context.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-expression">
+			<revision name="4.2.4.RELEASE" status="release" pubdate="20151217172959" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2629" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-expression/ivy-4.2.4.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-expression/4.2.4.RELEASE/spring-expression-4.2.4.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-context" conf="default, compile, runtime, master" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-expression" type="jar" ext="jar" status="no" details="" size="262990" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-expression/jars/spring-expression-4.2.4.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-expression/4.2.4.RELEASE/spring-expression-4.2.4.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-aop">
+			<revision name="4.2.4.RELEASE" status="release" pubdate="20151217172959" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3382" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-aop/ivy-4.2.4.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-aop/4.2.4.RELEASE/spring-aop-4.2.4.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-context" conf="default, compile, runtime, master" rev="4.2.4.RELEASE" rev-constraint-default="4.2.4.RELEASE" rev-constraint-dynamic="4.2.4.RELEASE" callerrev="4.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-aop" type="jar" ext="jar" status="no" details="" size="370051" time="0" location="/home/james/.ivy2/cache/org.springframework/spring-aop/jars/spring-aop-4.2.4.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-aop/4.2.4.RELEASE/spring-aop-4.2.4.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="commons-logging" name="commons-logging">
-			<revision name="1.2" status="release" pubdate="20140706021228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+			<revision name="1.2" status="release" pubdate="20140706021228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
 				<metadata-artifact status="no" details="" size="11382" time="0" location="/home/james/.ivy2/cache/commons-logging/commons-logging/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
-				<caller organisation="org.springframework" name="spring-core" conf="default, compile, runtime, master" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="4.2.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-core" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="4.2.4.RELEASE"/>
 				<caller organisation="org.springframework" name="spring-core" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="4.2.7.RELEASE"/>
 				<artifacts>
 					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="61829" time="0" location="/home/james/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="aopalliance" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20070227064340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2291" time="0" location="/home/james/.ivy2/cache/aopalliance/aopalliance/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="4.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="aopalliance" type="jar" ext="jar" status="no" details="" size="4467" time="0" location="/home/james/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

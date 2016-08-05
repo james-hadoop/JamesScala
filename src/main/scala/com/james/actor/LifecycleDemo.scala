@@ -1,8 +1,53 @@
 package com.james.actor
 
+import akka.actor.{Actor, ActorSystem, Props}
+
 /**
   * Created by james on 16-8-2.
   */
-object LifecycleDemo {
+class Kenny1 extends Actor {
+  println("entered the Kenny constructor")
 
+  override def preStart {
+    println("kenny: preStart")
+  }
+
+  override def postStop {
+    println("kenny: postStop")
+  }
+
+  override def preRestart(reason: Throwable, message: Option[Any]) {
+    println("kenny: preRestart")
+    println(s" MESSAGE: ${message.getOrElse("")}")
+    println(s" REASON: ${reason.getMessage}")
+    super.preRestart(reason, message)
+  }
+
+  override def postRestart(reason: Throwable) {
+    println("kenny: postRestart")
+    println(s" REASON: ${reason.getMessage}")
+    super.postRestart(reason)
+  }
+
+  def receive = {
+    case ForceRestart => throw new Exception("Boom!")
+    case _ => println("Kenny received a message")
+  }
+}
+
+case object ForceRestart
+
+object LifecycleDemo extends App {
+  val system = ActorSystem("LifecycleDemo")
+  val kenny = system.actorOf(Props[Kenny1], name = "Kenny")
+  println("sending kenny a simple String message")
+  kenny ! "hello"
+  Thread.sleep(1000)
+  println("make kenny restart")
+  kenny ! ForceRestart
+  Thread.sleep(1000)
+  println("stopping kenny")
+  system.stop(kenny)
+  println("shutting down system")
+  system.shutdown
 }
