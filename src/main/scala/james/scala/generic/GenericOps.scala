@@ -18,6 +18,6 @@ object GenericOps {
     println(f(List(1, 2, 3, 4, 5)))
 
     def buildArray[T: ClassTag](len: Int) = new Array[T](len)
-    println(buildArray[Int](5).toList)
+    println(buildArray[String](5).toList)
   }
 }

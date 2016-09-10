@@ -1,3 +1,6 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.scala-lang:scala-compiler:(2.10.0, 2.10.6)
+[warn]  * org.scala-lang:scala-reflect:(2.10.0, 2.10.6)
 [debug] :: resolving dependencies :: default#jamesscala$sources_2.10;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -6,7 +9,7 @@
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6921f3b4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f28c0ad
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6
 [debug] 	found org.scala-lang#scala-library;2.10.6 in sbt-chain
 [debug] 	[2.10.6] org.scala-lang#scala-library;2.10.6
@@ -15,7 +18,7 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.5 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.10;2.2.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c51078
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d55ead4
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.2.5
 [debug] 	found com.typesafe.akka#akka-actor_2.10;2.2.5 in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.5 [compile->runtime]
@@ -23,7 +26,7 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2.5 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->com.typesafe#config;1.0.2 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cc2a2ad
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18ebfb30
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.0.2
 [debug] 	found com.typesafe#config;1.0.2 in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->com.typesafe#config;1.0.2 [compile->runtime]
@@ -31,7 +34,7 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->com.typesafe#config;1.0.2 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->mysql#mysql-connector-java;5.1.39 [compile->default(compile)]
 [info] Resolving mysql#mysql-connector-java;5.1.39 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7535a914
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@615e349
 [debug] sbt-chain: module revision found in cache: mysql#mysql-connector-java;5.1.39
 [debug] 	found mysql#mysql-connector-java;5.1.39 in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->mysql#mysql-connector-java;5.1.39 [compile->runtime]
@@ -39,7 +42,7 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->mysql#mysql-connector-java;5.1.39 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-dbcp#commons-dbcp;1.4 [compile->default(compile)]
 [info] Resolving commons-dbcp#commons-dbcp;1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e749df
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a1b9d67
 [debug] sbt-chain: module revision found in cache: commons-dbcp#commons-dbcp;1.4
 [debug] 	found commons-dbcp#commons-dbcp;1.4 in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-dbcp#commons-dbcp;1.4 [compile->runtime]
@@ -47,15 +50,31 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-dbcp#commons-dbcp;1.4 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->default(compile)]
 [info] Resolving commons-pool#commons-pool;1.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f7cabdc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19ee37df
 [debug] sbt-chain: module revision found in cache: commons-pool#commons-pool;1.5.4
 [debug] 	found commons-pool#commons-pool;1.5.4 in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->default(compile)]
+[info] Resolving redis.clients#jedis;2.8.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49bfb668
+[debug] sbt-chain: module revision found in cache: redis.clients#jedis;2.8.2
+[debug] 	found redis.clients#jedis;2.8.2 in sbt-chain
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->default(compile)]
+[info] Resolving org.apache.commons#commons-pool2;2.4.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76648135
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-pool2;2.4.2
+[debug] 	found org.apache.commons#commons-pool2;2.4.2 in sbt-chain
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-context;4.2.4.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c126745
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1305e8a7
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-context;4.2.4.RELEASE
 [debug] 	found org.springframework#spring-context;4.2.4.RELEASE in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->runtime]
@@ -63,7 +82,7 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-aop;4.2.4.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-aop;4.2.4.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1678ec73
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32ea865a
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-aop;4.2.4.RELEASE
 [debug] 	found org.springframework#spring-aop;4.2.4.RELEASE in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-aop;4.2.4.RELEASE [compile->runtime]
@@ -71,7 +90,7 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-aop;4.2.4.RELEASE [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->aopalliance#aopalliance;1.0 [compile->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ac35b36
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bada4ef
 [debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
 [debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->aopalliance#aopalliance;1.0 [compile->runtime]
@@ -79,7 +98,7 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->aopalliance#aopalliance;1.0 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-logging#commons-logging;1.2 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c7300b6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ddd9187
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.2
 [debug] 	found commons-logging#commons-logging;1.2 in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-logging#commons-logging;1.2 [compile->runtime]
@@ -87,7 +106,7 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-logging#commons-logging;1.2 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-expression;4.2.4.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-expression;4.2.4.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6341ec99
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2adf1087
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-expression;4.2.4.RELEASE
 [debug] 	found org.springframework#spring-expression;4.2.4.RELEASE in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-expression;4.2.4.RELEASE [compile->runtime]
@@ -95,7 +114,7 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-expression;4.2.4.RELEASE [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-jdbc;4.2.7.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-jdbc;4.2.7.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f5928f5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@235a9173
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-jdbc;4.2.7.RELEASE
 [debug] 	found org.springframework#spring-jdbc;4.2.7.RELEASE in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-jdbc;4.2.7.RELEASE [compile->runtime]
@@ -103,7 +122,7 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-jdbc;4.2.7.RELEASE [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-beans;4.2.7.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-beans;4.2.7.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4adc87ec
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a1bddf6
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-beans;4.2.7.RELEASE
 [debug] 	found org.springframework#spring-beans;4.2.7.RELEASE in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-beans;4.2.7.RELEASE [compile->runtime]
@@ -111,7 +130,7 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-beans;4.2.7.RELEASE [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-core;4.2.7.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-core;4.2.7.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4061979e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76047569
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-core;4.2.7.RELEASE
 [debug] 	found org.springframework#spring-core;4.2.7.RELEASE in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-core;4.2.7.RELEASE [compile->runtime]
@@ -119,12 +138,52 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-core;4.2.7.RELEASE [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-tx;4.2.7.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d39d74f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41dff28b
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-tx;4.2.7.RELEASE
 [debug] 	found org.springframework#spring-tx;4.2.7.RELEASE in sbt-chain
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)]
+[info] Resolving org.squeryl#squeryl_2.10;0.9.5-6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1353efcb
+[debug] sbt-chain: module revision found in cache: org.squeryl#squeryl_2.10;0.9.5-6
+[debug] 	found org.squeryl#squeryl_2.10;0.9.5-6 in sbt-chain
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->default(compile)]
+[info] Resolving cglib#cglib-nodep;2.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53f37ce4
+[debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;2.2
+[debug] 	found cglib#cglib-nodep;2.2 in sbt-chain
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->default(compile)]
+[info] Resolving org.scala-lang#scalap;2.10.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77e6f48a
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0
+[debug] 	found org.scala-lang#scalap;2.10.0 in sbt-chain
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.10.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2dcce7f9
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.0
+[debug] 	found org.scala-lang#scala-compiler;2.10.0 in sbt-chain
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@556db9db
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0
+[debug] 	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [runtime]
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [compile]
@@ -152,6 +211,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->compile]
@@ -188,6 +255,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
@@ -212,6 +299,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime->compile]
@@ -248,6 +343,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [test]
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [runtime]
@@ -276,6 +391,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->compile]
@@ -312,6 +435,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
@@ -336,6 +479,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime->compile]
@@ -372,6 +523,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [test->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [test->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [test->compile]
@@ -396,6 +567,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [test->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [test->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [test->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [test->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [test->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [test->compile]
@@ -432,6 +611,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [test->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [test->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -463,6 +662,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->compile]
@@ -499,6 +706,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->master]
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [optional]
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [provided]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [compile-internal->default(compile)]
@@ -525,6 +752,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile-internal->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile-internal->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile-internal->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile-internal->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile-internal->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile-internal->compile]
@@ -561,6 +796,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile-internal->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile-internal->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [runtime-internal]
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [runtime]
@@ -589,6 +844,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->compile]
@@ -625,6 +888,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
@@ -649,6 +932,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime->compile]
@@ -685,6 +976,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->master]
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [optional]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime-internal->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime-internal->runtime]
@@ -710,6 +1021,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime-internal->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime-internal->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime-internal->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime-internal->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime-internal->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime-internal->compile]
@@ -746,6 +1065,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime-internal->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime-internal->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [test-internal]
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [test]
@@ -775,6 +1114,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [compile->compile]
@@ -811,6 +1158,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [compile->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [compile->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
@@ -835,6 +1202,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [runtime->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [runtime->compile]
@@ -871,6 +1246,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [runtime->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [runtime->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [test->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [test->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [test->compile]
@@ -895,6 +1290,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [test->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [test->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [test->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [test->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [test->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [test->compile]
@@ -931,6 +1334,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [test->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [test->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [test->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [test->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [test->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [test->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [test->master]
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [optional]
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [provided]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [test-internal->default(compile)]
@@ -957,6 +1380,14 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [test-internal->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [test-internal->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->commons-pool#commons-pool;1.5.4 [test-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [test-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [test-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [test-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->redis.clients#jedis;2.8.2 [test-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [test-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [test-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [test-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.apache.commons#commons-pool2;2.4.2 [test-internal->master]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [test-internal->default(compile)]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [test-internal->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-context;4.2.4.RELEASE [test-internal->compile]
@@ -993,6 +1424,26 @@
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [test-internal->runtime]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [test-internal->compile]
 [debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.springframework#spring-tx;4.2.7.RELEASE [test-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [test-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [test-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.squeryl#squeryl_2.10;0.9.5-6 [test-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [test-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [test-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [test-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->cglib#cglib-nodep;2.2 [test-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [test-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [test-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scalap;2.10.0 [test-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [test-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [test-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [test-internal->master]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [test-internal->runtime]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [test-internal->compile]
+[debug] == resolving dependencies default#jamesscala$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.0 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for default#jamesscala$sources_2.10;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -1054,6 +1505,10 @@
 [debug] 	[NOT REQUIRED] commons-dbcp#commons-dbcp;1.4!commons-dbcp.jar(src)
 [debug] 	[NOT REQUIRED] commons-pool#commons-pool;1.5.4!commons-pool.jar
 [debug] 	[NOT REQUIRED] commons-pool#commons-pool;1.5.4!commons-pool.jar(src)
+[debug] 	[NOT REQUIRED] redis.clients#jedis;2.8.2!jedis.jar
+[debug] 	[NOT REQUIRED] redis.clients#jedis;2.8.2!jedis.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-pool2;2.4.2!commons-pool2.jar
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-pool2;2.4.2!commons-pool2.jar(src)
 [debug] 	[NOT REQUIRED] org.springframework#spring-context;4.2.4.RELEASE!spring-context.jar(src)
 [debug] 	[NOT REQUIRED] org.springframework#spring-context;4.2.4.RELEASE!spring-context.jar
 [debug] 	[NOT REQUIRED] org.springframework#spring-aop;4.2.4.RELEASE!spring-aop.jar(src)
@@ -1072,11 +1527,21 @@
 [debug] 	[NOT REQUIRED] org.springframework#spring-core;4.2.7.RELEASE!spring-core.jar
 [debug] 	[NOT REQUIRED] org.springframework#spring-tx;4.2.7.RELEASE!spring-tx.jar
 [debug] 	[NOT REQUIRED] org.springframework#spring-tx;4.2.7.RELEASE!spring-tx.jar(src)
+[debug] 	[NOT REQUIRED] org.squeryl#squeryl_2.10;0.9.5-6!squeryl_2.10.jar
+[debug] 	[NOT REQUIRED] org.squeryl#squeryl_2.10;0.9.5-6!squeryl_2.10.jar(src)
+[debug] 	[NOT REQUIRED] cglib#cglib-nodep;2.2!cglib-nodep.jar(src)
+[debug] 	[NOT REQUIRED] cglib#cglib-nodep;2.2!cglib-nodep.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
-[debug] :: resolution report :: resolve 2474ms :: artifacts dl 135ms
+[debug] :: resolution report :: resolve 3551ms :: artifacts dl 241ms
 [debug] 	report for default#jamesscala$sources_2.10;1.0 compile produced in /home/james/workspace4scala/JamesScala/target/resolution-cache/reports/default-jamesscala$sources_2.10-compile.xml
 [debug] 	report for default#jamesscala$sources_2.10;1.0 runtime produced in /home/james/workspace4scala/JamesScala/target/resolution-cache/reports/default-jamesscala$sources_2.10-runtime.xml
 [debug] 	report for default#jamesscala$sources_2.10;1.0 test produced in /home/james/workspace4scala/JamesScala/target/resolution-cache/reports/default-jamesscala$sources_2.10-test.xml
@@ -1090,4 +1555,4 @@
 [debug] 	report for default#jamesscala$sources_2.10;1.0 docs produced in /home/james/workspace4scala/JamesScala/target/resolution-cache/reports/default-jamesscala$sources_2.10-docs.xml
 [debug] 	report for default#jamesscala$sources_2.10;1.0 pom produced in /home/james/workspace4scala/JamesScala/target/resolution-cache/reports/default-jamesscala$sources_2.10-pom.xml
 [debug] 	report for default#jamesscala$sources_2.10;1.0 scala-tool produced in /home/james/workspace4scala/JamesScala/target/resolution-cache/reports/default-jamesscala$sources_2.10-scala-tool.xml
-[debug] 	resolve done (2474ms resolve - 135ms download)
+[debug] 	resolve done (3551ms resolve - 241ms download)

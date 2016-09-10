@@ -27,6 +27,7 @@ object Functions {
         }
     }
 
+    // define inner function in an outer function
     def processData(filename: String, width: Int) {
         def processLine(line: String) {
             if (line.length > width) {

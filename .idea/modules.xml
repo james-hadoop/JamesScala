@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jamesscala.iml" filepath="$PROJECT_DIR$/.idea/modules/jamesscala.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jamesscala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/jamesscala-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../squeryl/.idea/modules/squeryl.iml" filepath="$PROJECT_DIR$/../squeryl/.idea/modules/squeryl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../squeryl/.idea/modules/squeryl-build.iml" filepath="$PROJECT_DIR$/../squeryl/.idea/modules/squeryl-build.iml" />
     </modules>
   </component>
 </project>

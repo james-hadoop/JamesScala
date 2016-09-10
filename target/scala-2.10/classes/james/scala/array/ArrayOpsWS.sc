@@ -14,7 +14,7 @@ object ArrayOpsWS {
         b += (1, 2, 3, 5)                         //> res1: james.scala.array.ArrayOpsWS.b.type = ArrayBuffer(1, 1, 2, 3, 5)
         b ++= Array(8, 13, 21)                    //> res2: james.scala.array.ArrayOpsWS.b.type = ArrayBuffer(1, 1, 2, 3, 5, 8, 13
                                                   //| , 21)
-        b.trimEnd(5)
+        b trimEnd 5
         b.insert(2, 6)
         b.insert(2, 7, 8, 9)
         b.remove(2)                               //> res3: Int = 7

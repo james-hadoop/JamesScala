@@ -4,7 +4,7 @@
 		module="jamesscala_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20160803001435"
+		publication="20160813090803"
 	>
 		<description>
 		JamesScala
@@ -37,10 +37,12 @@
 		<dependency org="com.typesafe.akka" name="akka-actor_2.10" rev="2.2.5" conf="compile->default(compile)"/>
 		<dependency org="mysql" name="mysql-connector-java" rev="5.1.+" conf="compile->default(compile)"/>
 		<dependency org="commons-dbcp" name="commons-dbcp" rev="1.4" conf="compile->default(compile)"/>
+		<dependency org="redis.clients" name="jedis" rev="2.8.+" conf="compile->default(compile)"/>
 		<dependency org="org.springframework" name="spring-context" rev="4.2.+" conf="compile->default(compile)"/>
 		<dependency org="org.springframework" name="spring-core" rev="4.2.+" conf="compile->default(compile)"/>
 		<dependency org="org.springframework" name="spring-beans" rev="4.2.+" conf="compile->default(compile)"/>
 		<dependency org="org.springframework" name="spring-jdbc" rev="4.2.+" conf="compile->default(compile)"/>
 		<dependency org="org.springframework" name="spring-tx" rev="4.2.+" conf="compile->default(compile)"/>
+		<dependency org="org.squeryl" name="squeryl_2.10" rev="0.9.5-6" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
