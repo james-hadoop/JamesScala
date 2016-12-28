@@ -7,26 +7,28 @@ class Animal {
     def yell {}
 }
 
-//object Animal {
-//    def apply(kind: String): Animal = kind.match {
-//        case "dog" => new Dog
-//        case "cat" => new Cat
-//    }
-//}
-//
-//class Cat extends Animal {
-//    override def yell: Unit = {
-//        print("miao")
-//    }
-//}
-//
-//class Dog extends Animal {
-//    override def yell: Unit = {
-//        print("wang")
-//    }
-//}
-//
-//object runAnimal extends App {
-//    Animal("dog").yell
-//    Animal("cat").yell
-//}
+object Animal {
+    def apply(kind: String): Animal = {
+        kind match {
+            case "dog" => new Dog
+            case "cat" => new Cat
+        }
+    }
+}
+
+class Cat extends Animal {
+    override def yell: Unit = {
+        println("miao")
+    }
+}
+
+class Dog extends Animal {
+    override def yell: Unit = {
+        println("wang")
+    }
+}
+
+object runAnimal extends App {
+    Animal("dog").yell
+    Animal("cat").yell
+}

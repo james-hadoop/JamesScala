@@ -31,26 +31,26 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.6:jar" level="project" />
-    <orderEntry type="library" name="SBT: mysql:mysql-connector-java:5.1.39:jar" level="project" />
-    <orderEntry type="library" name="SBT: commons-pool:commons-pool:1.5.4:jar" level="project" />
-    <orderEntry type="library" name="SBT: commons-dbcp:commons-dbcp:1.4:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.typesafe:config:1.0.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-actor_2.10:2.2.5:jar" level="project" />
-    <orderEntry type="library" name="SBT: commons-logging:commons-logging:1.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.springframework:spring-beans:4.2.7.RELEASE:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.springframework:spring-core:4.2.7.RELEASE:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.springframework:spring-jdbc:4.2.7.RELEASE:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.springframework:spring-tx:4.2.7.RELEASE:jar" level="project" />
-    <orderEntry type="library" name="SBT: aopalliance:aopalliance:1.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.springframework:spring-aop:4.2.4.RELEASE:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.springframework:spring-context:4.2.4.RELEASE:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.springframework:spring-expression:4.2.4.RELEASE:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.commons:commons-pool2:2.4.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: redis.clients:jedis:2.8.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: cglib:cglib-nodep:2.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-compiler:2.10.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.10.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scalap:2.10.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.squeryl:squeryl_2.10:0.9.5-6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scalap:2.10.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.10.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-compiler:2.10.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: cglib:cglib-nodep:2.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: redis.clients:jedis:2.8.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.commons:commons-pool2:2.4.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-expression:4.2.4.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-context:4.2.4.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-aop:4.2.4.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: aopalliance:aopalliance:1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-tx:4.2.7.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-jdbc:4.2.7.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-core:4.2.7.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-beans:4.2.7.RELEASE:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-logging:commons-logging:1.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-actor_2.10:2.2.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe:config:1.0.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-dbcp:commons-dbcp:1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-pool:commons-pool:1.5.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: mysql:mysql-connector-java:5.1.39:jar" level="project" />
   </component>
 </module>
