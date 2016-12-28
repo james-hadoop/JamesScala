@@ -6,7 +6,7 @@ import java.io.File
   * Created by james on 16-7-28.
   */
 object DirTest extends App {
-    val files = getListOfFiles("/home/james/resource")
+    val files = getListOfFiles("/home/james")
     println(files)
 
     def getListOfFiles(dir: String): List[File] = {
